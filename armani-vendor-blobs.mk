@@ -191,6 +191,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
+# Keystore (V7.0.5.0)
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/xiaomi/armani/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+
 # Media (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
